@@ -16,8 +16,9 @@ f = open('rhyme.txt', 'r')
 
 while True:
     line = f.readline()
-    if not line:
+    cleanline = line.strip().strip('.')
+    if not cleanline:
         break
-    word_len = len(line.split())
-    print(f"{line.strip()} --- {word_len} words")
+    word_len = len(cleanline)
+    print(f"{cleanline} --- {word_len} words")
 f.close()
