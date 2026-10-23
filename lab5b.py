@@ -1,7 +1,7 @@
 # Add comments before you do anything else.
 #!/usr/bin/env python3
-# Author: T
-# Date:
+# Author: Thien Hung Pham
+# Date: 10/23/2026
 # Purpose: Write data to a file.
 # Usage: ./lab5b.py
 
